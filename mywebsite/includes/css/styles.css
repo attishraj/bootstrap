@@ -13,8 +13,15 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Layout
    -------------------------------------- */
-
-
+  #features{
+    text-align: center;
+  }
+  #features img{
+    margin: 0 0 20px;
+  }
+  #inputMessage{
+    margin-bottom: 15px;
+  }
 
 /* --------------------------------------
    Typography
@@ -83,6 +90,9 @@ body{
 .alert{
   margin-top: 20px;
   display: none;
+}
+.tabbable img.thumbnail{
+  margin: 0 20px 10px 0;
 }
 
 
