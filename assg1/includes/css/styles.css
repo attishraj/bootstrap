@@ -1,0 +1,99 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+/*.messi-hero
+{
+  width: 100%;
+  height: 400px;
+  background:
+  url('../../images/background1.jpg')left top no-repeat,
+  url('../../images/background2.jpg')left 100px no-repeat,
+  url('../../images/background3.jpg')left 200px no-repeat,
+  url('../../images/background4.jpg')left 300px no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}*/
+
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+   #myCarousel{
+       margin-top: 60px;
+     }
+     .carousel-caption
+     {
+       font-size: 24px;
+     }
+     .carousel-caption h3
+     {
+       font-size: 32px;
+     }
+       #myCarousel .item { height: 500px; }
+       #slide1 {
+      	background: url('../../images/background1.jpg') top center no-repeat;
+        background-size: cover;
+      }
+
+      #slide2 {
+      	background: url('../../images/background2.jpg') top center no-repeat;
+        background-size: cover;
+      }
+
+      #slide3 {
+      	background: url('../../images/background3.jpg') top center no-repeat;
+        background-size: cover;
+      }
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
