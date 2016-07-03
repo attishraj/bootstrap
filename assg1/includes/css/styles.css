@@ -5,308 +5,298 @@ My Custom CSS
 
 Author:  Brad Hussey
 Updated: August 2013
-Notes:	 Hand coded for Udemy.com
-
-*/
-/*.messi-hero
-{
-  width: 100%;
-  height: 400px;
-  background:
-  url('../../images/background1.jpg')left top no-repeat,
-  url('../../images/background2.jpg')left 100px no-repeat,
-  url('../../images/background3.jpg')left 200px no-repeat,
-  url('../../images/background4.jpg')left 300px no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}*/
-
+Notes:   Hand coded for Udemy.com
 
 
 /* --------------------------------------
    Layout
    -------------------------------------- */
-   html, body {
-     height: 100%;
-   }
-    body{
-
-      background: #000000;
-    }
-    .cover {
-      height: 100%;
-    }
-    #main {
-      height: 100%;
-    }
-    .navbar-toggle
-    {
-      color: #000000;
-    }
-    #na{
-      background: black;
-    }
-    .boxed {
-      border: 1px solid green ;
-    }
-
-    #cd-timeline {
-  position: relative;
-  padding: 2em 0;
-  margin-top: 2em;
-  margin-bottom: 2em;
-}
-#cd-timeline::before {
-  /* this is the vertical line */
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 18px;
-  height: 100%;
-  width: 4px;
-  background: #d7e4ed;
+html,body {
+    height: 100%;
 }
 
-.video
+body {
+    background: #000;
+}
+
+.cover {
+    height: 100%;
+}
+
+#main {
+    height: 100%;
+}
+
+.navbar-toggle {
+    color: #000;
+}
+
+#na {
+    background: #000;
+}
+h6
 {
-  padding-top: 20px;
+  color: #f5f5f5;
 }
 
-.early{
-  margin: 10px 10px 20px 10px;
-
-
+.boxed {
+    border: 1px solid green;
 }
+
+#cd-timeline {
+    position: relative;
+    padding: 2em 0;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#cd-timeline::before {
+/* this is the vertical line */
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 18px;
+    height: 100%;
+    width: 4px;
+    background: #d7e4ed;
+}
+
+.video {
+    padding-top: 20px;
+}
+#prime{
+  margin-top: 20px;
+}
+
+.early {
+    margin: 10px 10px 20px;
+}
+
 /* --------------------------------------
    Typography
    -------------------------------------- */
 
-.fan {
-   height:500px;
-   padding-top: 248px;
-   text-align: center;
-   color: #e9b403;
-   font-size: 70px;
-   letter-spacing: 5px;
-   border-bottom: 1px dotted  #e9b403;
-}
-.stats
-{
-  margin-top: -30px;
+.stats {
+    margin-top: -30px;
 }
 
-.stats h1
-{
+.stats h1 {
     margin-top: 148px;
-  text-align: center;
-   color: #e9b403;
-   font-size: 70px;
-   letter-spacing: 4px;
-   text-transform: uppercase;
-}
-.rise
-{
-  text-align: center;
-   color: whitesmoke;
-
-}
-.matter1 h4{
-  margin-top:20px;
-  margin-bottom:15px;
-}
-
-
-#rise{
-  margin-top:10px;
-}
- #career
-{
-  text-align: center;
-   color: whitesmoke;
-   }
-   #stats
-  {
     text-align: center;
-     color: whitesmoke;
-     }
-h5
-{
-  text-align: center;
-  color:whitesmoke;
-  letter-spacing: 4px;
-  text-transform: uppercase;
-  font-size: 20px;
-  margin-top:30px;
-  margin-bottom:18px;
-
-}
-li a{
-  text-decoration: none;
-  color:whitesmoke;
-  font-size:20px;
-}
-#dom h3
-{
-  font-size: 20px;
-
+    color: #e9b403;
+    font-size: 70px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
 }
 
-#timeline
-{
-  margin-top: 30px;
-  text-align: left;
-  padding-top:20px;
-}
-#bigCallout
-{
-  padding-bottom: 40px;
+.rise {
+    text-align: center;
+    color: #f5f5f5;
 }
 
-#moreInfo
-{
-  color:whitesmoke;
-}
-.starrise
-{
-  text-align: justify;
+.matter1 h4 {
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 
+#rise {
+    margin-top: 10px;
+}
+
+#career {
+    text-align: center;
+    color: #f5f5f5;
+}
+
+#stats {
+    text-align: center;
+    color: #f5f5f5;
+}
+
+h5 {
+    text-align: center;
+    color: #f5f5f5;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 18px;
+}
+
+li a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 20px;
+}
+
+#dom h3 {
+    font-size: 20px;
+}
+
+#timeline {
+    margin-top: 30px;
+    text-align: left;
+    padding-top: 20px;
+}
+
+#bigCallout {
+  margin: 30px;
+    padding-bottom: 40px;
+    height: 640px;
+    padding-top: 248px;
+    text-align: center;
+    color: #e9b403;
+    font-size: 70px;
+    letter-spacing: 5px;
+    border-bottom: 1px dotted #e9b403;
+}
+
+#moreInfo {
+    color: #f5f5f5;
+}
+
+.starrise {
+    text-align: justify;
+}
 
 /* --------------------------------------
    Navbar
    -------------------------------------- */
-   #searchInput {
-   	width: 200px;
-   }
+#searchInput {
+    width: 200px;
+}
 
-   .navbar-brand {
-   	padding: 13px 15px;
-   }
-
+.navbar-brand {
+    padding: 13px 15px;
+}
+.mess
+{
+  color:#f5f5f5; 
+}
 
 /* --------------------------------------
    Carousel
    -------------------------------------- */
-   #myCarousel{
-       /*margin-top: 60px;*/
-       height:650px;
-     }
+#myCarousel {
+/*margin-top: 60px;*/
+    height: 100%;
+}
 
-     .hero-wrapper {
-       height: 100%;
-       width: 100%;
-       float: left;
-     }
+.hero-wrapper {
+    height: 100%;
+    width: 100%;
+    float: left;
+}
 
-     .clear {
-       clear: both;
-     }
+.clear {
+    clear: both;
+}
 
-       #myCarousel .item {
-         height: 100%;
-       }
+#myCarousel .item {
+    height: 100%;
+}
 
-       #slide1 {
-      	background: url('../../images/background3.jpg') top center no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-      }
+#slide1 {
+    background: url(../../images/background3.jpg) top center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
-      #slide2 {
-      	background: url('../../images/background1.jpg') top center no-repeat;
-        background-size: cover;
-      background-attachment: fixed;
-      }
+#slide2 {
+    background: url(../../images/background1.jpg) top center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
-      #slide3 {
-      	background: url('../../images/background2.jpg') top center no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-      }
-      #slide4 {
-      	background: url('../../images/background4.jpg') top center no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-      }
+#slide3 {
+    background: url(../../images/background2.jpg) top center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
-
-
+#slide4 {
+    background: url(../../images/background4.jpg) top center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
-
-
-
 /* --------------------------------------
    Media Queries
    -------------------------------------- */
-
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
-
+    
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
-  #myCarousel .item { height: 500px; }
-  #slide1 {
-   background: url('../../images/background3.jpg') top center no-repeat;
-   background-size: cover;
- }
- #risepic{
-<img src="images/rise1.jpg" alt="Rise of star" />
- }
- #starpic{
-   <img src="images/award.jpg" alt="award" />
+    #myCarousel .item {
+        height: 500px;
+    }
 
- }
+    #slide1 {
+        background: url(../../images/background3.jpg) top center no-repeat;
+        background-size: cover;
+    }
 
- #slide2 {
-   background: url('../../images/background1.jpg') top center no-repeat;
-   background-size: cover;
- }
+    #risepic {
+        <imgsrc: images/rise1.jpg alt="Rise of star" />;
+    }
 
- #slide3 {
-   background: url('../../images/background2.jpg') top center no-repeat;
-   background-size: cover;
- }
- #slide4 {
-   background: url('../../images/background4.jpg') top center no-repeat;
-   background-size: cover;
- }
+    #starpic {
+        <imgsrc: images/award.jpg alt=award />;
+    }
 
+    #slide2 {
+        background: url(../../images/background1.jpg) top center no-repeat;
+        background-size: cover;
+    }
+
+    #slide3 {
+        background: url(../../images/background2.jpg) top center no-repeat;
+        background-size: cover;
+    }
+
+    #slide4 {
+        background: url(../../images/background4.jpg) top center no-repeat;
+        background-size: cover;
+    }
 }
 
 /* Large desktop */
 @media (min-width: 1200px) {
-  #myCarousel .item {
-    height: 100%;
-  }
-  #slide1 {
-   background: url('../../images/background3.jpg') top center no-repeat;
-   background-size: cover;
- }
+    #myCarousel .item {
+        height: 100%;
+    }
 
- #slide2 {
-   background: url('../../images/background1.jpg') top center no-repeat;
-   background-size: cover;
- }
+    #slide1 {
+        background: url(../../images/background3.jpg) top center no-repeat;
+        background-size: cover;
+    }
 
- #slide3 {
-   background: url('../../images/background2.jpg') top center no-repeat;
-   background-size: cover;
- }
- #slide4 {
-   background: url('../../images/background4.jpg') top center no-repeat;
-   background-size: cover;
- }
+    #slide2 {
+        background: url(../../images/background1.jpg) top center no-repeat;
+        background-size: cover;
+    }
 
+    #slide3 {
+        background: url(../../images/background2.jpg) top center no-repeat;
+        background-size: cover;
+    }
+
+    #slide4 {
+        background: url(../../images/background4.jpg) top center no-repeat;
+        background-size: cover;
+    }
 }
-#risepic{
-<img src="images/rise1.jpg" alt="Rise of star" />
-}
-#starpic{
-  <img src="images/award.jpg" alt="award" />
 
+#risepic {
+    <imgsrc: images/rise1.jpg alt="Rise of star" />;
+}
+
+#starpic {
+    <imgsrc: images/award.jpg alt=award />;
 }
